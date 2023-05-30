@@ -32,4 +32,4 @@ io.on("connection", (socket) => {
   })
 });
 
-httpServer.listen(5000, console.log("LISTENING"));
+httpServer.listen();
