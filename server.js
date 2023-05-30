@@ -33,9 +33,3 @@ io.on("connection", (socket) => {
 });
 
 httpServer.listen(5000, console.log("LISTENING"));
-
-setInterval(async () => {
-  fetch("https://misty-sideways-okra.glitch.me/").then(
-    console.log("PING!")
-  );
-}, 40000);
